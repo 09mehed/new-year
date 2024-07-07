@@ -5,15 +5,17 @@
 }
 /* header area */
 .header{
-    width: 1210px;
+    max-width: 1210px;
     height: 500px;
-    margin: 30px 3%;
-    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url(./images/Banner\ Image.png);
+    margin: 30px auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image: url(./images/Banner\ Image.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 15px;
     text-align: center;
+    background-blend-mode: overlay;
 }
 .header-area{
     padding-top: 160px;
@@ -29,3 +31,280 @@
     padding-top: 10px;
     color: #fff;
 }
+/* discount area */
+.discount{
+    text-align: center;
+    padding: 50px 0;
+}
+.discount-header{
+    color: #FF0000;
+    font-size: 60px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.discount-coto{
+    color: #FF0000;
+    font-size: 15px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+.discount-all{
+    color: #070211;
+    font-size: 40px;
+    font-weight: 700;
+    padding: 5px 0 10px 0;
+}
+.discount-area img{
+    width: 40%;
+    padding-top: 40px;
+}
+/* welcome area */
+.welcome{
+    width: 1190px;
+    height: 500px;
+    margin: 30px auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(./images/Vectorrr.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+}
+.welcome-area{
+    display: flex;
+    justify-content: space-between;
+}
+.welcome-box{
+    padding-left: 50px;
+    width: 50%;
+    padding-top: 160px;
+}
+.welcome-text{
+    font-size: 50px;
+    font-weight: 400;
+    color: #fff;
+}
+.welcome-p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    padding-top: 10px;
+}
+.welcome-img{
+    width: 50%;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .welcome-img img{
+    width: 50%;
+    padding-left: 10%;
+ }
+ .button{
+   padding-left: 20px;
+    padding-top: 30px;
+ }
+ .btn{
+    color: #fff;
+    font-size: 16px;
+    background-color: #FF0000;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+ }
+ /* hotel area */
+ .hotel{
+    text-align: center;
+    align-items: flex-start;
+    padding: 20px 0;
+    background-image: linear-gradient(#FEE7E7, #fff);
+    height: 400px;
+    padding-top: 40px;
+    margin: 30px auto;
+    border-radius: 10px;
+ }
+ .hotel-area{
+    padding-top: 100px;
+ }
+ .hotel-title{
+    font-size: 30px;
+    font-weight: 600;
+    padding: 5px;
+    color: #070211;
+ }
+ .hotel-title span{
+    color: #FF0000;
+ }
+ /* offer area */
+.offer{
+    padding: 30px 0;
+    margin: 30px 3%;
+}
+.offer-area{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+.title-2{
+    color: #070211;
+    font-size: 30px;
+    font-weight: 500;
+    padding: 10px 0;
+}
+.title-1{
+    color: #FF0000;
+    font-size: 35px;
+    font-weight: 700;
+    padding: 10px 0;
+}
+.offer-p{
+    font-size: 15px;
+    font-weight: 400;
+    color: #070211;
+    opacity: 0.6;
+}
+.offer-p2{
+    font-size: 15px;
+    font-weight: 400;
+    color: #070211;
+    opacity: 0.6;
+    padding-top: 20px;
+}
+.offer-img img{
+    width: 100%;
+    border: 10px solid #FF0000;
+    border-radius: 50%;
+    padding: 20px;
+}
+ .offer-2024 img{
+    width: 30%;
+    padding-top: 30px;
+ }
+ /* holiday area */
+ .holiday{
+    padding: 30px 0;
+    margin: 30px 3%;
+    height: 600px;
+    position: relative;
+ }
+ .doliday-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1068px;
+    margin: 0 auto;
+ }
+ .doliday-text h5{
+    color: rgb(7, 2, 17);
+    font-size: 20px;
+    font-weight: 500;
+ }
+ .doliday-text h1{
+    font-size: 40px;
+    font-weight: 800;
+    font-family: Merriweather;
+    text-align: center;
+ }
+ .doliday-text span{
+    color: #FF0000;
+ }
+ .doliday-text p{
+    color: rgba(7, 2, 17, 0.6);
+    font-size: 20px;
+    font-weight: 500;
+ }
+ .holiday-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .solid-color{
+    background-color: #FF0000;
+    height: 150px;
+    top: 88%;
+    width: 1184px;
+    position: absolute;
+ }
+ .gift-box img{
+    width: 600px;
+    height: 520px;
+    position: relative;
+    z-index: 1;
+    padding-top: 60px;
+ }
+ .awesome{
+    width: 1210px;
+    margin: 30px 3%;
+    padding-top: 100px;
+ }
+ .awesome-content h5{
+    color: #FF0000;
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 5px;
+ }
+ .awesome-content h1{
+    color: #070211;
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 5px;
+ }
+ .awesome-content p{
+    font-size: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 25px;
+ }
+ .awesome-pic{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+ }
+ .item{
+    width: 350px;
+    height: 320px;
+ }
+ .item img{
+    width: 100%;
+    height: 100%;
+ }
+ /* newsletter area */
+ .newsletter{
+    padding: 30px 0;
+    margin: 30px 3%;
+    text-align: center;
+    background-color: #FAEDED;
+ }
+ .newsletter-area i{
+    font-size: 80px;
+    color: rgb(203, 203, 90);
+ }
+ .newsletter-area h1{
+    font-size: 30px;
+    font-weight: 600;
+    color: #000;
+    padding: 10px 0;
+ }
+ .newsletter-area p{
+    font-size: 20px;
+    font-weight: 400;
+    color: #070211;
+    padding: 10px 0;
+ }
+ .newsletter-area input[type="email"]{
+    color: white;
+    width: 20%;
+    height: 30px;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 10px 0 0 10px;
+ }
+ button{
+    background-color: #FF0000;
+    color: white;
+    font-size: 16px;
+    padding: 13px 15px;
+    border: none;
+    border-radius: 10px 0 0 10px;
+ }
